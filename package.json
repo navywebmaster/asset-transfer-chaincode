@@ -1,0 +1,16 @@
+{
+    "name": "asset-transfer-chaincode",
+    "version": "1.0.0",
+    "description": "JavaScript Chaincode for Hyperledger Fabric",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "dependencies": {
+        "fabric-contract-api": "^2.4.1",
+        "fabric-shim": "^2.4.1"
+    },
+    "engines": {
+        "node": ">=12.0.0"
+    }
+}
